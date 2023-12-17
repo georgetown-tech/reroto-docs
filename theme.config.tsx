@@ -1,17 +1,18 @@
 import React from 'react'
 import { DocsThemeConfig } from 'nextra-theme-docs'
+import Logo from "./logo.svg";
 
 const config: DocsThemeConfig = {
-  logo: <span>My Project</span>,
+  logo: <Logo />,
   project: {
-    link: 'https://github.com/shuding/nextra-docs-template',
+    link: 'https://github.com/georgetown-tech/reroto-docs',
   },
-  chat: {
-    link: 'https://discord.com',
-  },
-  docsRepositoryBase: 'https://github.com/shuding/nextra-docs-template',
+  // chat: {
+  //   link: 'https://discord.com',
+  // },
+  docsRepositoryBase: 'https://github.com/georgetown-tech/reroto-docs',
   footer: {
-    text: 'Nextra Docs Template',
+    text: '© 2023 Georgetown Disruptive Technologies Co.',
   },
 }
 
