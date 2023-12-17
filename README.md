@@ -1,23 +1,13 @@
-# Nextra Docs Template 
+# ReRoto Docs
 
-This is a template for creating documentation with [Nextra](https://nextra.site).
+📚 The official documentation for ReRoto.
 
-[**Live Demo →**](https://nextra-docs-template.vercel.app)
+## Editing Docs
 
-[![](.github/screenshot.png)](https://nextra-docs-template.vercel.app)
+To edit a page, first visit that page on [ReRoto Docs](https://docs.reroto.com). Then, click 'Edit this page on GitHub'. After that, make the edits that you would like and click 'commit'. After commit, you have to create a 'pull request', so that we can make sure your edits are good. And that's it!
 
-## Quick Start
+*Please note, editing and adding pages requires a Github account.*
 
-Click the button to clone this repository and deploy it on Vercel:
+## Adding Pages
 
-[![](https://vercel.com/button)](https://vercel.com/new/clone?s=https%3A%2F%2Fgithub.com%2Fshuding%2Fnextra-docs-template&showOptionalTeamCreation=false)
-
-## Local Development
-
-First, run `pnpm i` to install the dependencies.
-
-Then, run `pnpm dev` to start the development server and visit localhost:3000.
-
-## License
-
-This project is licensed under the MIT License.
+To add a page, go into the 'pages' directory. Then, duplicate an existing file in the directory, naming it whatever you would like the page to be named. Once created, you can edit the file and follow the "Editing Docs" instructions for the rest.
