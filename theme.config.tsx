@@ -23,7 +23,7 @@ const config: DocsThemeConfig = {
   //   link: 'https://discord.com',
   // },
   primaryHue: 259,
-  primarySaturation: 67,
+  // primarySaturation: 67,
   docsRepositoryBase: 'https://github.com/georgetown-tech/reroto-docs',
   footer: {
     text: '© 2023 Georgetown Disruptive Technologies Co.',
