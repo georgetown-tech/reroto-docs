@@ -1,7 +1,26 @@
 import React from 'react'
 import { DocsThemeConfig } from 'nextra-theme-docs'
+import { useRouter } from 'next/router'
 
 const config: DocsThemeConfig = {
+  head: (
+    <>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <meta property="og:title" content="ReRoto Docs" />
+      <meta property="og:description" content="Discover seamless collaboration, streamlined workflows, and unparalleled editorial control— ReRoto CMS, empowering your newsroom." />
+    </>
+  ),
+  useNextSeoProps: () => {
+    const { asPath } = useRouter()
+    if (asPath !== '/') {
+      return {
+        titleTemplate: '%s – ReRoto Docs'
+      }
+    }
+    return {
+      titleTemplate: 'ReRoto Docs'
+    }
+  },
   logo: <svg width="60" height="24" viewBox="0 0 50 20" fill="none" xmlns="http://www.w3.org/2000/svg">
     <style>
         .purple {"{"}
