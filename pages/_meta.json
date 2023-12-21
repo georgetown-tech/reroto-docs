@@ -4,5 +4,6 @@
     },
     "about": {
         "display": "hidden"
-    }
+    },
+    "index": "Introduction"
 }
